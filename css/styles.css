@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #6f6966;
+  font-size: 15px;
+}
+
+.container{
+  margin: 3% 5%;
+}
+.photo{
+  width: 100vw;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  padding: 5% 0 5% 0;
+}
+
+.sub-title {
+  padding: 0 0 5% 0;
+}
+
+.preparation{
+  background-color: #fff7fc;
+}
+
+.preparation-title {
+  font-size: 20px;
+  color: #793651; 
+  padding: 5% 0 3% 3%;
+}
+
+.list {
+  padding: 0 0 0 10%;
+}
+
+.list li {
+  padding: 0 0 3% 0;
+}
+
+.ingredients-title{
+  color: #7c3f28;
+  font-size: 25px;
+  padding: 8% 0%;
+}
+
+hr {
+  opacity: 0.5;
+  margin: 10% 0;
+}
+
+.instructions-title{
+  color: #7c3f28;
+  padding: 0 0 8% 0;
+}
+
+.Nutrition-title{
+  color: #7c3f28;
+  padding: 0 0 8% 0;
+}
+
+.nutrition-description{
+  padding: 0 0 8% 0;
+}
+
+.nutrition-subdescription{
+  display: block;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 13%;
+}
+
+th, td{
+  padding: 10px;
+  text-align: left;
+}
+
+td{
+  color: #7c3f28;
+  font-weight: bold;
+}
+
+@media (min-width: 768px){
+  .photo{
+    width: 93%;
+    margin: 3% 3%;
+    border-radius: 10px;
+    height: 40vh;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 35px;
+    padding: 0 0 5% 0;
+  }
+  
+  .preparation{
+    padding-bottom: 3%;
+  }
+  
+  .preparation-title {
+    font-size: 25px;
+  }
+  
+  .list li {
+    font-size: 15px;
+    padding-bottom: 4%;
+  }
+  
+  .ingredients-title{
+    font-size: 25px;
+  }
+
+  .Nutrition-title{
+    font-size: 25px;
+  }
+  
+  table{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .photo{
+    height: 45vh;
+    width: 85vw auto;
+  }
+
+  .container{
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 40px;
+    padding-bottom: 2%;
+  }
+  .sub-title{
+    padding-bottom: 2%;
+  }
+  
+  .preparation-title {
+    font-size: 30px;
+
+  }
+  
+  .list li {
+    font-size: 16px;
+  }
+  
+  .ingredients-title{
+    font-size: 35px;
+    padding: 4% 0 ;
+  }
+
+  hr{
+    margin: 2%;
+  }
+
+  .instructions-title{
+    font-size: 35px;
+    padding-bottom: 2%;
+  }
+
+  .Nutrition-title{
+    font-size: 35px;
+    padding-bottom: 2%;
+  }
+
+  .nutrition-description{
+    padding-bottom: 2%;
+  }
+  
+  table{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px){
+
+  .photo{
+    margin: 2% 3%;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+    
+  .preparation-title {
+    font-size: 30px;
+    padding-top: 2%;
+  }
+
+  .preparation{
+    padding: 0;
+  }
+  
+  .list li {
+    font-size: 20px;
+  }
+  
+  .ingredients-title{
+    font-size: 35px;
+    padding: 2% 0;
+  }
+
+  hr{
+    margin-top: 0;
+  }
+
+  .instructions-title{
+    font-size: 35px;
+  }
+
+  .Nutrition-title{
+    font-size: 35px;
+  }
+  
+  table{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px){
+
+  .photo{
+    width: 80vw;
+    margin: 10% auto;
+  }
+
+  p {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 100px;
+  }
+    
+  .preparation-title {
+    font-size: 70px;
+  }
+  
+  .list li {
+    font-size: 50px;
+  }
+  
+  .ingredients-title{
+    font-size: 70px;
+  }
+
+  .instructions-title{
+    font-size: 70px;
+  }
+
+  .Nutrition-title{
+    font-size: 70px;
+  }
+  
+  table{
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 2560px){
+
+  .photo{
+    border-radius: 30px;
+  }
+
+  p {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 100px;
+  }
+    
+  .preparation-title {
+    font-size: 70px;
+  }
+  
+  .list li {
+    font-size: 50px;
+  }
+  
+  .ingredients-title{
+    font-size: 70px;
+  }
+
+  .instructions-title{
+    font-size: 70px;
+  }
+
+  .Nutrition-title{
+    font-size: 70px;
+  }
+  
+  table{
+    font-size: 50px;
+  }
+}
