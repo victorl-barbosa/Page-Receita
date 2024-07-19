@@ -28,6 +28,7 @@ p {
 
 .preparation{
   background-color: #fff7fc;
+  border-radius: 10px;
 }
 
 .preparation-title {
@@ -193,22 +194,33 @@ td{
 }
 
 @media (min-width: 1440px){
+  body{
+    margin: 0 10% ;
+  }
 
   .photo{
-    margin: 2% 3%;
+    width: 70vw;
+    margin: 2% 0 3% 5%;
+  }
+  .preparation{
+    width: 70vw;
+  }
+
+  hr{
+    margin-top: 2%;
   }
 
   p {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   .title {
-    font-size: 42px;
+    font-size: 38px;
   }
     
   .preparation-title {
-    font-size: 30px;
-    padding-top: 2%;
+    font-size: 25px;
+    padding-top: 1%;
   }
 
   .preparation{
@@ -216,68 +228,75 @@ td{
   }
   
   .list li {
-    font-size: 20px;
+    font-size: 17px;
+    padding: 1% 0;
   }
   
   .ingredients-title{
-    font-size: 35px;
+    font-size: 28px;
     padding: 2% 0;
   }
 
-  hr{
-    margin-top: 0;
-  }
 
   .instructions-title{
-    font-size: 35px;
+    font-size: 28px;
   }
 
   .Nutrition-title{
-    font-size: 35px;
+    font-size: 28px;
   }
   
   table{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 1920px){
 
   .photo{
-    width: 80vw;
-    margin: 10% auto;
+    width: 65vw;
+    margin: 3% 5%;
+  }
+
+  .preparation{
+    width: 65vw;
   }
 
   p {
-    font-size: 50px;
+    font-size: 21px;
   }
 
   .title {
-    font-size: 100px;
+    font-size: 40px;
   }
     
   .preparation-title {
-    font-size: 70px;
+    font-size: 30px;
+    padding-bottom: 1%;
   }
   
   .list li {
-    font-size: 50px;
+    font-size: 25px;
   }
   
   .ingredients-title{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .instructions-title{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .Nutrition-title{
-    font-size: 70px;
+    font-size: 40px;
   }
   
   table{
-    font-size: 50px;
+    font-size: 25px;
+  }
+
+  hr{
+    margin-top: 1%;
   }
 }
 
@@ -288,34 +307,34 @@ td{
   }
 
   p {
-    font-size: 50px;
+    font-size: 25px;
   }
 
   .title {
-    font-size: 100px;
+    font-size: 55px;
   }
     
   .preparation-title {
-    font-size: 70px;
+    font-size: 40px;
   }
   
   .list li {
-    font-size: 50px;
+    font-size: 25px;
   }
   
   .ingredients-title{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .instructions-title{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .Nutrition-title{
-    font-size: 70px;
+    font-size: 40px;
   }
   
   table{
-    font-size: 50px;
+    font-size: 28px;
   }
 }
